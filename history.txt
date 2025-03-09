@@ -1,0 +1,16 @@
+  526  ls -la
+  527  nano README.md
+  528  nano .gitignore
+  529  git add .
+  530  git status
+  531  git commit -m "New commit" .gitignore
+  532  git commit -m "New commit" README.md
+  533  git status
+  534  git push origin feature
+  535  git commit --amend 
+  536  git push origin feature
+  537  git checkout main
+  538  git merge feature
+  539  git status
+  540  history > history.txt
+  541  cat history.txt
